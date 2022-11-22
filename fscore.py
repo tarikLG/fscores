@@ -42,3 +42,5 @@ grouped_gt = ka.grouping(ka.imL)
 grouped_predicted = ka.grouping(ka.kmeans)
 
 f1_scores = ka.calculate(grouped_predicted, grouped_gt)
+
+print(f1_scores)
