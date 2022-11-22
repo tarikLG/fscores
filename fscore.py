@@ -17,7 +17,7 @@ class KmeansAccuracy:
 
         # do kmeans clustering
  
-        self.kmeans = skc.KMeans(n_clusters=2, init="k-means++").fit(self.imIF)
+        self.kmeans = skc.KMeans(n_clusters=200, init="k-means++").fit(self.imIF)
 
     # group labels with each other based and rename classes into indices and labels into colums
 
